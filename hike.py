@@ -5,7 +5,9 @@ def display_title():
     print()
 
 def to_feet(miles):
-    pass
+    feet = miles * 5280
+    feet = int(round(feet))
+    return feet
 
 def main():
     display_title()
