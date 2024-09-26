@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 
 def display_title():
-    pass
+    print("Hike Calculator")
+    print()
 
 def to_feet(miles):
     pass
